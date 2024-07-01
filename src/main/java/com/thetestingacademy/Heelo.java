@@ -2,7 +2,7 @@ package com.thetestingacademy;
 
 
 
-public class Lab299 {
+public class Heelo {
     public static void main(String[] args) {
         System.out.println("hello");
     }
