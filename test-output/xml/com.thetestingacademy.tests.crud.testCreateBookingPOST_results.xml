@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="C:/Users/AARRSOL/IdeaProjects/APIAutomationATB6x"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.739">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testCreateBooking"
+                time="2.331"
+                classname="com.thetestingacademy.tests.crud.testCreateBookingPOST">
+            </testcase>
+            <testcase
+                name="testCreateBookingNegative"
+                time="1.408"
+                classname="com.thetestingacademy.tests.crud.testCreateBookingPOST">
+            </testcase>
+</testsuite>
