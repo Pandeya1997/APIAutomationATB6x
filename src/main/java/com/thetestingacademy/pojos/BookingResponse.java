@@ -1,6 +1,6 @@
 package com.thetestingacademy.pojos;
 
-public class BookingRespons {
+public class BookingResponse {
 
     private Integer bookingid;
     private Booking booking;

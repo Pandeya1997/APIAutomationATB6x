@@ -1,7 +1,9 @@
 package com.thetestingacademy.utils;
 
+import com.github.javafaker.Faker;
+
 public class fakerutil {
-    Faker faker = new Faker();
+    Faker faker ;
     public String getFirstName(){
         return faker.name().firstName();
     }
