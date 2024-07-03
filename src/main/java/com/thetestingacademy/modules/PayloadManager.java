@@ -51,6 +51,33 @@ public BookingResponse bookingResponseJava(String responseString){
     BookingResponse bookingRespons = gson.fromJson(responseString,BookingResponse.class);
     return bookingRespons;
 }
+public String  setAuthPayload (){
+        Auth auth = new Auth();
+        auth.setUsername("admin");
+        auth.setPassword("password123");
+        gson = new Gson();
+     String jsonPayloadString = gson.toJson(auth);
+    System.out.println("Payload set to " + gson.toJson(auth));
+        return jsonPayloadString;
+}
+
+public String getTokenFromJSON(String tokenResponse){
+       gson = new Gson();
+       // Response ( JSON ) --> object tokenResponse
+    // Deserialization
+    TokenResponse tokenResponse1 = gson.fromJson(tokenResponse,TokenResponse.class);
+    return tokenResponse1.getToken();
 
     }
+
+    public Booking getResponseFromJSON(String getResponse){
+        gson = new Gson();
+        // Response ( JSON) ->  Object TokenResponse
+        // Deserialization
+        Booking booking = gson.fromJson(getResponse,Booking.class);
+        return booking;
+    }
+
+
+}
 

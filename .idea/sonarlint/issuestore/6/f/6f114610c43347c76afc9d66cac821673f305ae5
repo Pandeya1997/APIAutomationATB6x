@@ -1,0 +1,7 @@
+
+Ï
+java:S3577"ŒRename class "TCIntegration" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(‚Î°z8øã‘³‡2J$e2d51404-3559-4c06-b97d-e872fe553601
+y
+java:S1128"6Remove this unused import 'io.qameta.allure.Severity'.(Ã’°·8“…’³‡2J$03f5ca63-b88f-485f-b490-6a972ec52e63
+ƒ
+java:S1128";Remove this unused import 'io.qameta.allure.SeverityLevel'.(…“û¼øÿÿÿÿ8”…’³‡2J$4db9db4d-70ba-4313-81e6-1100101e9234

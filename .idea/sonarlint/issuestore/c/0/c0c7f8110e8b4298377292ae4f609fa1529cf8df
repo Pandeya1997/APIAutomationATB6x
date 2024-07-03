@@ -1,5 +1,8 @@
 
 «
-java:S1488"cImmediately return this expression instead of assigning it to the temporary variable "jsonPayload".(„É½şÿÿÿÿ8ãÜºš‡2J$57e8ddc3-2367-4628-a96e-56acfd22184f
+java:S1488"cImmediately return this expression instead of assigning it to the temporary variable "jsonPayload".(„É½şÿÿÿÿ8‡ƒºÆ‡2J$aecb77ed-bd34-4794-8741-168fa4e6d804
 ©
-java:S14883"fImmediately return this expression instead of assigning it to the temporary variable "bookingRespons".(†ŠèÜ8ãÜºš‡2J$e0ce55bb-bef2-4e68-a8c6-da645657d05b
+java:S14883"fImmediately return this expression instead of assigning it to the temporary variable "bookingRespons".(†ŠèÜ8‡ƒºÆ‡2J$5560b7d8-1658-4bdd-aa7a-0d6ae75102e8
+|
+java:S1488M"_Immediately return this expression instead of assigning it to the temporary variable "booking".(ÆŠ‚¹8‘¾Æ‡2
+m	java:S106<"+Replace this use of System.out by a logger.(ïÅâ¼8˜ƒºÆ‡2J$d6c1ed46-00c1-4141-a025-58dde7a5fa16

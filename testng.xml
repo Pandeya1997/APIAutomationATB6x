@@ -4,9 +4,19 @@
     <test verbose="2" preserve-order="true" name="C:/Users/AARRSOL/IdeaProjects/APIAutomationATB6x">
         <classes>
             <class name="com.thetestingacademy.tests.crud.testCreateBookingPOST">
-
+                <methods>
+                    <include name="testCreateBooking"/>
+                    <include name="testCreateBookingNegative"/>
+                </methods>
+            </class>
+            <class name="com.thetestingacademy.tests.integration.sample.TCIntegration_Simple.TCIntegration">
+                <methods>
+                    <include name="testCreateBooking"/>
+                    <include name="testVerifyBookingId"/>
+                    <include name="testUpdateBookingId"/>
+                    <include name="testDeleteBookingd"/>
+                </methods>
             </class>
         </classes>
     </test>
 </suite>
-

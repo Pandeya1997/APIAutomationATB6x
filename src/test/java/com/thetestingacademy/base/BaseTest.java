@@ -11,7 +11,7 @@ import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.BeforeTest;
-
+// Common to all to TestCase
 public class BaseTest {
     //  Base Test Father -> Testcase - Son - Single Inheritance
     public RequestSpecification requestSpecification;
@@ -40,7 +40,25 @@ public class BaseTest {
     }
 
     public String getToken() {
-        return null;
+// Setup the URLs
+        requestSpecification = RestAssured.
+                given()
+                .baseUri(APIConstants.BASE_URL)
+                .basePath(APIConstants.AUTH_URL);
+
+// Setting the up the payload
+      String payload = payloadManager.setAuthPayload();
+// Geting  the response
+            response  =  requestSpecification
+              .contentType(ContentType.JSON)
+                 .body(payload).when().post();
+
+            // Extracting of the Token via Deserialization
+String token = payloadManager.getTokenFromJSON(response.asString());
+
+// Verify
+return token;
+
     }
 
 }
