@@ -4,6 +4,7 @@ import com.thetestingacademy.base.BaseTest;
 import com.thetestingacademy.endpoints.APIConstants;
 import com.thetestingacademy.pojos.Booking;
 import com.thetestingacademy.pojos.BookingResponse;
+import com.thetestingacademy.utils.PropertyReader;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
 import io.restassured.RestAssured;
@@ -71,7 +72,7 @@ public class TCIntegrationFlow extends BaseTest {
         // AssertJ
 
         assertThat(booking.getFirstname()).isNotNull().isNotBlank();
-        assertThat(booking.getFirstname()).isEqualTo("Pramod");
+        assertThat(booking.getFirstname()).isEqualTo(PropertyReader.readKey("booking.firstname"));
 
 
     }
@@ -100,7 +101,7 @@ public class TCIntegrationFlow extends BaseTest {
         Booking booking = payloadManager.getResponseFromJSON(response.asString());
 
         assertThat(booking.getFirstname()).isNotNull().isNotBlank();
-        assertThat(booking.getFirstname()).isEqualTo("James");
+        assertThat(booking.getFirstname()).isEqualTo(PropertyReader.readKey("booking.put.firstname"));
         assertThat(booking.getLastname()).isEqualTo("Dutta");
 
 
@@ -112,9 +113,20 @@ public class TCIntegrationFlow extends BaseTest {
     @Test(groups = "Integration", priority = 4)
     @Owner("promode")
     @Description("TC#INT1 - Step-4 Verify that the Booking can be Created")
-    public void testDeleteBookingd(ITestContext iTestContext) {
-        System.out.println("Token - " + iTestContext.getAttribute("token"));
+    public void testDeleteBookingById(ITestContext iTestContext) {
+        String token = (String) iTestContext.getAttribute("token");
         Assert.assertTrue(true);
+
+        Integer bookingid = (Integer) iTestContext.getAttribute("bookingid");
+        String basePathDELETE = APIConstants.CREATE_UPDATE_BOOKING_URL + "/" + bookingid;
+        System.out.println(basePathDELETE);
+
+        requestSpecification.basePath(basePathDELETE).cookie("token", token);
+        validatableResponse = RestAssured.given().spec(requestSpecification)
+                .when().delete().then().log().all();
+        validatableResponse.statusCode(201);
+
+
 
     }
 

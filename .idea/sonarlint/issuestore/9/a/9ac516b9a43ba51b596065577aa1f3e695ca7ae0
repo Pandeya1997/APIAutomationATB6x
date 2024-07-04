@@ -1,27 +1,27 @@
 
-
-java:S1104"TMake BASE_URL a static final constant or non-public and provide accessors if needed.(õ‘¬J$02eef093-7d4d-47cb-a348-30632d4ce18c
-¡
-java:S1104"eMake CREATE_UPDATE_BOOKING_URL a static final constant or non-public and provide accessors if needed.(ÖÿÃJ$3aa2cc6a-e700-42ed-8330-68b013708ad9
-
-java:S1104"TMake AUTH_URL a static final constant or non-public and provide accessors if needed.(ËÃûéJ$3110f709-922f-496f-aa90-f84edfe53c44
-•
-java:S1104"TMake PING_URL a static final constant or non-public and provide accessors if needed.(ä—×ÕûÿÿÿÿJ$b134243d-6ba1-4024-8992-e50e4608e0c1
-j
-java:S1444".Make this "public static BASE_URL" field final(õ‘¬J$b0c63098-b88e-4615-87e3-a7a1af8a98f2
-{
-java:S1444"?Make this "public static CREATE_UPDATE_BOOKING_URL" field final(ÖÿÃJ$e651d9b6-18e8-4346-b5f7-1960fee85f54
-j
-java:S1444".Make this "public static AUTH_URL" field final(ËÃûéJ$fcf8d8fa-2014-470f-89a8-c4c7620e25f4
-o
-java:S1444".Make this "public static PING_URL" field final(ä—×ÕûÿÿÿÿJ$4000f698-68c0-448b-aacb-d0c07b3e5ecd
-
-java:S3008"SRename this field "BASE_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ‘¬J$4c351acf-00d3-4293-8c90-2449da07ee55
- 
-java:S3008"dRename this field "CREATE_UPDATE_BOOKING_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÿÃJ$c60fb391-cb70-4e16-95bb-5be8141eccb7
-
-java:S3008"SRename this field "AUTH_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÃûéJ$51efb5e5-49d0-469b-9b8a-e80e5e80ffe8
-”
-java:S3008"SRename this field "PING_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä—×ÕûÿÿÿÿJ$868fa22d-e928-4009-b38c-1d61afea829e
-{
-java:S1118":Add a private constructor to hide the implicit public one.(ó‡é‹ıÿÿÿÿJ$0265c6e5-71bb-42f6-a3c8-8c669552df19
+—
+java:S1104"TMake BASE_URL a static final constant or non-public and provide accessors if needed.(õ‘¬8½ÊØê‡2J$e4c41fbd-161f-456d-a32c-c63d3e06edd7
+¨
+java:S1104"eMake CREATE_UPDATE_BOOKING_URL a static final constant or non-public and provide accessors if needed.(ÖÿÃ8½ÊØê‡2J$c707394d-d656-4aae-b6dc-98d0ea3b9fc6
+—
+java:S1104"TMake AUTH_URL a static final constant or non-public and provide accessors if needed.(ËÃûé8½ÊØê‡2J$f5f3c57d-6705-48b0-8d8d-9daa9b796ab5
+œ
+java:S1104"TMake PING_URL a static final constant or non-public and provide accessors if needed.(ä—×Õûÿÿÿÿ8¾ÊØê‡2J$16834f4f-0b8f-4179-8775-88c2b54fb2ee
+q
+java:S1444".Make this "public static BASE_URL" field final(õ‘¬8¿ÊØê‡2J$53ee73f2-132b-44f6-a218-e12682d2b883
+‚
+java:S1444"?Make this "public static CREATE_UPDATE_BOOKING_URL" field final(ÖÿÃ8¿ÊØê‡2J$9ebb503d-e046-48a8-a201-a1d3eb0c70f2
+q
+java:S1444".Make this "public static AUTH_URL" field final(ËÃûé8¿ÊØê‡2J$b5ae5f74-b2f5-4bbc-b213-ebfdbe02b97f
+v
+java:S1444".Make this "public static PING_URL" field final(ä—×Õûÿÿÿÿ8¿ÊØê‡2J$d12d1405-87a1-4dc3-96bc-59986eccb00f
+–
+java:S3008"SRename this field "BASE_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ‘¬8ÀÊØê‡2J$23fdc006-645c-4c19-ae9b-7edabb8e2b4d
+§
+java:S3008"dRename this field "CREATE_UPDATE_BOOKING_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÿÃ8ÀÊØê‡2J$ec53b20f-06d7-4516-a2fd-9a5687aabba5
+–
+java:S3008"SRename this field "AUTH_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÃûé8ÁÊØê‡2J$52172ec4-ed96-4d49-865f-286b1919328e
+›
+java:S3008"SRename this field "PING_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä—×Õûÿÿÿÿ8ÁÊØê‡2J$2120b9b2-6b44-487c-abe2-21fec54a7be9
+‚
+java:S1118":Add a private constructor to hide the implicit public one.(ó‡é‹ıÿÿÿÿ8ÂÊØê‡2J$f05a6ad1-bb85-43a8-bc4b-abac04fee6d2

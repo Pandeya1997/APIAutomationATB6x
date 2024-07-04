@@ -43,3 +43,9 @@ Lsrc/test/java/com/thetestingacademy/tests/crud/Sample/testcreateBooking.java,6
 Osrc/test/java/com/thetestingacademy/tests/integration/sample/TCIntegration.java,4\4\4437473ff2b0caebc04e8fcd7dc408e50d25319c
 †
 Vsrc/test/java/com/thetestingacademy/tests/integration/sample/TCIntegration_Simple.java,6\f\6f07064a1bce72633ac0e7975b0f08c9e868c1fe
+m
+=src/test/java/com/thetestingacademy/utils/PropertyReader.java,c\f\cfd812f3fa4251d24dd8e23322e7e04686af4bed
+\
+,src/test/java/resources/data/properties.java,1\8\18c4676bacd11f5104a1681b397596302105241b
+\
+,src/test/java/resources/data/data.properties,3\1\311beaa4daed97c01708125c4f6fd091bc6777e2

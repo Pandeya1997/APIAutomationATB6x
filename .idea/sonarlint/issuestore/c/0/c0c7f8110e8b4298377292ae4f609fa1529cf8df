@@ -1,8 +1,8 @@
 
-«
-java:S1488"cImmediately return this expression instead of assigning it to the temporary variable "jsonPayload".(„É½şÿÿÿÿ8‡ƒºÆ‡2J$aecb77ed-bd34-4794-8741-168fa4e6d804
-©
-java:S14883"fImmediately return this expression instead of assigning it to the temporary variable "bookingRespons".(†ŠèÜ8‡ƒºÆ‡2J$5560b7d8-1658-4bdd-aa7a-0d6ae75102e8
-|
-java:S1488M"_Immediately return this expression instead of assigning it to the temporary variable "booking".(ÆŠ‚¹8‘¾Æ‡2
-m	java:S106<"+Replace this use of System.out by a logger.(ïÅâ¼8˜ƒºÆ‡2J$d6c1ed46-00c1-4141-a025-58dde7a5fa16
+…
+java:S1488"cImmediately return this expression instead of assigning it to the temporary variable "jsonPayload".(„É½şÿÿÿÿ8™¾ßç‡2
+ƒ
+java:S14885"fImmediately return this expression instead of assigning it to the temporary variable "bookingRespons".(†ŠèÜ8š¾ßç‡2
+¢
+java:S1488P"_Immediately return this expression instead of assigning it to the temporary variable "booking".(ÆŠ‚¹8‘¾Æ‡2J$1f4df2ea-9302-4999-96a7-8501057f41a2
+G	java:S106?"+Replace this use of System.out by a logger.(ïÅâ¼8î¾ßç‡2

@@ -1,9 +1,8 @@
 
-İ
-java:S3577"”Rename class "testCreateBookingPOST" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(şû¬ºıÿÿÿÿ8ìÂš‡2J$2e1b3797-485a-43a8-ba70-bf26e84b70ec
-~	java:S125"<This block of commented-out lines of code should be removed.(Êè…8±­ˆ£‡2J$a4d1a960-db4e-4d04-a3d0-d252d104a223
+·
+java:S3577"”Rename class "testCreateBookingPOST" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(şû¬ºıÿÿÿÿ8¯Âßç‡2
+X	java:S125 "<This block of commented-out lines of code should be removed.(Êè…8°Âßç‡2
 N
-java:S1128
-"1Remove this unused import 'org.hamcrest.Matcher'.(±¡øÛ8Ï‰¿Ä‡2
+java:S1128"1Remove this unused import 'org.hamcrest.Matcher'.(±¡øÛ8³Âßç‡2
 O
-java:S1128"2Remove this unused import 'org.hamcrest.Matchers'.(ÕÓ˜ï8Ï‰¿Ä‡2
+java:S1128"2Remove this unused import 'org.hamcrest.Matchers'.(ÕÓ˜ï8³Âßç‡2

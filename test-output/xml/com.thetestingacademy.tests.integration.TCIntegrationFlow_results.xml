@@ -4,29 +4,29 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="9.951">
+           time="9.074">
     <properties></properties>
 
 
 
             <testcase
                 name="testUpdateBookingId"
-                time="1.462"
+                time="2.314"
                 classname="com.thetestingacademy.tests.integration.TCIntegrationFlow">
             </testcase>
             <testcase
-                name="testDeleteBookingd"
-                time="0.014"
+                name="testDeleteBookingById"
+                time="1.406"
                 classname="com.thetestingacademy.tests.integration.TCIntegrationFlow">
             </testcase>
             <testcase
                 name="testCreateBooking"
-                time="7.031"
+                time="3.916"
                 classname="com.thetestingacademy.tests.integration.TCIntegrationFlow">
             </testcase>
             <testcase
                 name="testVerifyBookingId"
-                time="1.444"
+                time="1.438"
                 classname="com.thetestingacademy.tests.integration.TCIntegrationFlow">
             </testcase>
 </testsuite>
