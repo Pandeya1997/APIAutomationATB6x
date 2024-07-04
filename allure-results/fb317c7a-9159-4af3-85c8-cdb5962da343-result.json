@@ -1,1 +1,70 @@
-{"uuid":"fb317c7a-9159-4af3-85c8-cdb5962da343","historyId":"a656f9cb6a45c4471f4d79b7728325e4","fullName":"com.thetestingacademy.tests.crud.testCreateBookingPOST.testCreateBooking","labels":[{"name":"package","value":"com.thetestingacademy.tests.crud.testCreateBookingPOST"},{"name":"testClass","value":"com.thetestingacademy.tests.crud.testCreateBookingPOST"},{"name":"testMethod","value":"testCreateBooking"},{"name":"parentSuite","value":"All Test Suite"},{"name":"suite","value":"C:/Users/AARRSOL/IdeaProjects/APIAutomationATB6x"},{"name":"subSuite","value":"com.thetestingacademy.tests.crud.testCreateBookingPOST"},{"name":"host","value":"DESKTOP-B6IU4L2"},{"name":"thread","value":"24988@DESKTOP-B6IU4L2.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"},{"name":"owner","value":"Promode"},{"name":"severity","value":"normal"}],"links":[],"name":"testCreateBooking","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","description":"TC#1 - Verify that the Booking can be Created","steps":[],"attachments":[],"parameters":[],"start":1719922343192,"stop":1719922345737}
+{
+  "uuid": "fb317c7a-9159-4af3-85c8-cdb5962da343",
+  "historyId": "a656f9cb6a45c4471f4d79b7728325e4",
+  "fullName": "com.thetestingacademy.tests.crud.testCreateBookingPOST.testCreateBooking",
+  "labels": [
+    {
+      "name": "package",
+      "value": "com.thetestingacademy.tests.crud.testCreateBookingPOST"
+    },
+    {
+      "name": "testClass",
+      "value": "com.thetestingacademy.tests.crud.testCreateBookingPOST"
+    },
+    {
+      "name": "testMethod",
+      "value": "testCreateBooking"
+    },
+    {
+      "name": "parentSuite",
+      "value": "All Test Suite"
+    },
+    {
+      "name": "suite",
+      "value": "C:/Users/AARRSOL/IdeaProjects/APIAutomationATB6x"
+    },
+    {
+      "name": "subSuite",
+      "value": "com.thetestingacademy.tests.crud.testCreateBookingPOST"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-B6IU4L2"
+    },
+    {
+      "name": "thread",
+      "value": "24988@DESKTOP-B6IU4L2.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "owner",
+      "value": "Promode"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "testCreateBooking",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "TC#1 - Verify that the Booking can be Created",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1719922343192,
+  "stop": 1719922345737
+}

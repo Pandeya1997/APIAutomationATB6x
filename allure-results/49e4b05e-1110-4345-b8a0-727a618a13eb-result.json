@@ -1,0 +1,66 @@
+{
+  "uuid": "49e4b05e-1110-4345-b8a0-727a618a13eb",
+  "historyId": "b711fc06ced2b02a4e3412a59bb65ad",
+  "fullName": "com.thetestingacademy.tests.integration.TCIntegrationFlow.testUpdateBookingId",
+  "labels": [
+    {
+      "name": "package",
+      "value": "com.thetestingacademy.tests.integration.TCIntegrationFlow"
+    },
+    {
+      "name": "testClass",
+      "value": "com.thetestingacademy.tests.integration.TCIntegrationFlow"
+    },
+    {
+      "name": "testMethod",
+      "value": "testUpdateBookingId"
+    },
+    {
+      "name": "parentSuite",
+      "value": "All Test Suite"
+    },
+    {
+      "name": "suite",
+      "value": "C:/Users/AARRSOL/IdeaProjects/APIAutomationATB6x"
+    },
+    {
+      "name": "subSuite",
+      "value": "com.thetestingacademy.tests.integration.TCIntegrationFlow"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-GEQ1BC1"
+    },
+    {
+      "name": "thread",
+      "value": "9612@DESKTOP-GEQ1BC1.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "owner",
+      "value": "promode"
+    }
+  ],
+  "links": [],
+  "name": "testUpdateBookingId",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "TC#INT1 - Step-3 Verify that the Booking can be Created",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1720026863558,
+  "stop": 1720026863568
+}

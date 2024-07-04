@@ -1,1 +1,23 @@
-{"uuid":"db67628e-cfdf-45c6-95cf-d376343081e7","name":"APIAutomationATB6x","children":["28c13fe2-33b5-425e-8348-4eb328916e69"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1719921595894,"stop":1719921596302}],"afters":[],"start":1719921595882,"stop":1719921598942}
+{
+  "uuid": "db67628e-cfdf-45c6-95cf-d376343081e7",
+  "name": "APIAutomationATB6x",
+  "children": [
+    "28c13fe2-33b5-425e-8348-4eb328916e69"
+  ],
+  "befores": [
+    {
+      "name": "setUp",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1719921595894,
+      "stop": 1719921596302
+    }
+  ],
+  "afters": [],
+  "start": 1719921595882,
+  "stop": 1719921598942
+}

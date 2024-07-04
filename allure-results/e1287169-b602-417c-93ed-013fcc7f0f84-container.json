@@ -1,1 +1,11 @@
-{"uuid":"e1287169-b602-417c-93ed-013fcc7f0f84","name":"All Test Suite","children":["478e1ea2-f53f-4a6c-b807-dda191e2733c"],"befores":[],"afters":[],"start":1719940014758,"stop":1719940019026}
+{
+  "uuid": "e1287169-b602-417c-93ed-013fcc7f0f84",
+  "name": "All Test Suite",
+  "children": [
+    "478e1ea2-f53f-4a6c-b807-dda191e2733c"
+  ],
+  "befores": [],
+  "afters": [],
+  "start": 1719940014758,
+  "stop": 1719940019026
+}

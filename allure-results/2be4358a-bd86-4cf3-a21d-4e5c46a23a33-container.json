@@ -1,1 +1,14 @@
-{"uuid":"2be4358a-bd86-4cf3-a21d-4e5c46a23a33","name":"com.thetestingacademy.tests.integration.TCIntegration","children":["534c6268-ce5d-45de-aec2-91792ba9eb44","411d0515-ec58-4112-85ff-cff861279023","00415b50-4717-433b-af0d-a9c32a7b843a","5e9e1bb0-ee23-4da8-bea3-ec0be7eb8792"],"befores":[],"afters":[],"start":1719973643130,"stop":1719973643943}
+{
+  "uuid": "2be4358a-bd86-4cf3-a21d-4e5c46a23a33",
+  "name": "com.thetestingacademy.tests.integration.TCIntegration",
+  "children": [
+    "534c6268-ce5d-45de-aec2-91792ba9eb44",
+    "411d0515-ec58-4112-85ff-cff861279023",
+    "00415b50-4717-433b-af0d-a9c32a7b843a",
+    "5e9e1bb0-ee23-4da8-bea3-ec0be7eb8792"
+  ],
+  "befores": [],
+  "afters": [],
+  "start": 1719973643130,
+  "stop": 1719973643943
+}

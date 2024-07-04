@@ -1,4 +1,5 @@
 package com.thetestingacademy.tests.crud;
+
 import com.thetestingacademy.base.BaseTest;
 import com.thetestingacademy.endpoints.APIConstants;
 import com.thetestingacademy.pojos.BookingResponse;
@@ -10,7 +11,9 @@ import io.restassured.RestAssured;
 import org.hamcrest.Matcher;
 import org.hamcrest.Matchers;
 import org.testng.annotations.Test;
+
 import static org.assertj.core.api.Assertions.*;
+
 public class testCreateBookingPOST extends BaseTest {
 
     @Test(groups = "smoke")
@@ -36,11 +39,10 @@ public class testCreateBookingPOST extends BaseTest {
         assertThat(bookingResponse.getBooking().getFirstname()).isNotNull().isNotBlank();
         assertThat(bookingResponse.getBooking().getFirstname()).isEqualTo("Pramod");
         // TestNG Assertions
-        assertActions.verifyStatusCode(response,200);
+        assertActions.verifyStatusCode(response, 200);
     }
 
     // Negative Test case
-
 
 
     @Test(groups = "smoke")
@@ -59,8 +61,6 @@ public class testCreateBookingPOST extends BaseTest {
         validatableResponse.statusCode(500);
 
     }
-
-
 
 
 }

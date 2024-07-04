@@ -1,1 +1,11 @@
-{"uuid":"c8f366c6-ca8f-46b8-b11d-ca0a8c33fc9c","name":"com.thetestingacademy.tests.crud.testCreateBookingPOST","children":["8287df71-c465-472c-adb8-8b3b8aaa628a"],"befores":[],"afters":[],"start":1719924887612,"stop":1719924891144}
+{
+  "uuid": "c8f366c6-ca8f-46b8-b11d-ca0a8c33fc9c",
+  "name": "com.thetestingacademy.tests.crud.testCreateBookingPOST",
+  "children": [
+    "8287df71-c465-472c-adb8-8b3b8aaa628a"
+  ],
+  "befores": [],
+  "afters": [],
+  "start": 1719924887612,
+  "stop": 1719924891144
+}

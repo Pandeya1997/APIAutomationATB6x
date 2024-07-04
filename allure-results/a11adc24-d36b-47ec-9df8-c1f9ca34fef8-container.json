@@ -1,1 +1,23 @@
-{"uuid":"a11adc24-d36b-47ec-9df8-c1f9ca34fef8","name":"C:/Users/AARRSOL/IdeaProjects/APIAutomationATB6x","children":["2983e456-280c-4da6-8180-38f32f3dce22"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1719917147841,"stop":1719917148319}],"afters":[],"start":1719917147826,"stop":1719917148514}
+{
+  "uuid": "a11adc24-d36b-47ec-9df8-c1f9ca34fef8",
+  "name": "C:/Users/AARRSOL/IdeaProjects/APIAutomationATB6x",
+  "children": [
+    "2983e456-280c-4da6-8180-38f32f3dce22"
+  ],
+  "befores": [
+    {
+      "name": "setUp",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1719917147841,
+      "stop": 1719917148319
+    }
+  ],
+  "afters": [],
+  "start": 1719917147826,
+  "stop": 1719917148514
+}

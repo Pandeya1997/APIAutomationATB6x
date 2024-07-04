@@ -11,6 +11,7 @@ import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.BeforeTest;
+
 // Common to all to TestCase
 public class BaseTest {
     //  Base Test Father -> Testcase - Son - Single Inheritance
@@ -22,13 +23,13 @@ public class BaseTest {
     public ValidatableResponse validatableResponse;
 
     @BeforeTest
-    public void setUp(){
+    public void setUp() {
         System.out.println("Before Test");
         payloadManager = new PayloadManager();
         assertActions = new AssertActions();
         requestSpecification = new RequestSpecBuilder()
                 .setBaseUri(APIConstants.BASE_URL)
-                .addHeader("Content-Type","application/json")
+                .addHeader("Content-Type", "application/json")
                 .build().log().all();
 // or
 //        requestSpecification = RestAssured.
@@ -47,17 +48,17 @@ public class BaseTest {
                 .basePath(APIConstants.AUTH_URL);
 
 // Setting the up the payload
-      String payload = payloadManager.setAuthPayload();
+        String payload = payloadManager.setAuthPayload();
 // Geting  the response
-            response  =  requestSpecification
-              .contentType(ContentType.JSON)
-                 .body(payload).when().post();
+        response = requestSpecification
+                .contentType(ContentType.JSON)
+                .body(payload).when().post();
 
-            // Extracting of the Token via Deserialization
-String token = payloadManager.getTokenFromJSON(response.asString());
+        // Extracting of the Token via Deserialization
+        String token = payloadManager.getTokenFromJSON(response.asString());
 
 // Verify
-return token;
+        return token;
 
     }
 

@@ -1,0 +1,14 @@
+{
+  "uuid": "055be1de-3c04-4438-b2b0-3a8a1b282bb7",
+  "name": "com.thetestingacademy.tests.integration.TCIntegrationFlow",
+  "children": [
+    "1eda47a1-370b-4eca-b6bd-5990a004c3e1",
+    "1372ea15-d369-493a-b398-b714c4f89fbf",
+    "49e4b05e-1110-4345-b8a0-727a618a13eb",
+    "c73f10e5-e119-401d-9f7d-9c40222f5120"
+  ],
+  "befores": [],
+  "afters": [],
+  "start": 1720026850649,
+  "stop": 1720026863616
+}

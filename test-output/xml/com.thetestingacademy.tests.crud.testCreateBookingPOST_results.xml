@@ -8,15 +8,14 @@
     <properties></properties>
 
 
-
-            <testcase
-                name="testCreateBooking"
-                time="2.331"
-                classname="com.thetestingacademy.tests.crud.testCreateBookingPOST">
-            </testcase>
-            <testcase
-                name="testCreateBookingNegative"
-                time="1.408"
-                classname="com.thetestingacademy.tests.crud.testCreateBookingPOST">
-            </testcase>
+    <testcase
+            name="testCreateBooking"
+            time="2.331"
+            classname="com.thetestingacademy.tests.crud.testCreateBookingPOST">
+    </testcase>
+    <testcase
+            name="testCreateBookingNegative"
+            time="1.408"
+            classname="com.thetestingacademy.tests.crud.testCreateBookingPOST">
+    </testcase>
 </testsuite>

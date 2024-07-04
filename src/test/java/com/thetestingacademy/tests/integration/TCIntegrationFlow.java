@@ -47,16 +47,15 @@ public class TCIntegrationFlow extends BaseTest {
         iTestContext.setAttribute("bookingid", bookingResponse.getBookingid());
 
 
-
     }
 
     @Test(groups = "Integration", priority = 2)
     @Owner("promode")
     @Description("TC#INT- Step- 2Verify that the Booking can be Created")
-    public void testVerifyBookingId(ITestContext iTestContext){
+    public void testVerifyBookingId(ITestContext iTestContext) {
         String bookingid = iTestContext.getAttribute("bookingid").toString();
 // Get Req
-        String basePathGET = APIConstants.CREATE_UPDATE_BOOKING_URL+"/"+ bookingid;
+        String basePathGET = APIConstants.CREATE_UPDATE_BOOKING_URL + "/" + bookingid;
         System.out.println(basePathGET);
 
         requestSpecification.basePath(basePathGET);
@@ -75,24 +74,46 @@ public class TCIntegrationFlow extends BaseTest {
         assertThat(booking.getFirstname()).isEqualTo("Pramod");
 
 
-
     }
+
     @Test(groups = "Integration", priority = 3)
     @Owner("promode")
     @Description("TC#INT1 - Step-3 Verify that the Booking can be Created")
-    public void testUpdateBookingId(ITestContext iTestContext){
-        System.out.println("Token - "+ iTestContext.getAttribute("token"));
-        Assert.assertTrue(true);
+    public void testUpdateBookingId(ITestContext iTestContext) {
+        System.out.println("Token - " + iTestContext.getAttribute("token"));
+    String token = iTestContext.getAttribute("token").toString();
 
         // PUT / PATCH
+        String bookingid = iTestContext.getAttribute("bookingid").toString();
+        String basePathPUTPATCH = APIConstants.CREATE_UPDATE_BOOKING_URL + "/" + bookingid;
+        System.out.println(basePathPUTPATCH);
 
 
-    }
+        requestSpecification.basePath(basePathPUTPATCH);
+        response = RestAssured
+                .given(requestSpecification).cookie("token", token)
+                .when().body(payloadManager.fullUpdatePayloadAsString()).put();
+        validatableResponse = response.then().log().all();
+        // Validatable Assertion
+        validatableResponse.statusCode(200);
+
+        Booking booking = payloadManager.getResponseFromJSON(response.asString());
+
+        assertThat(booking.getFirstname()).isNotNull().isNotBlank();
+        assertThat(booking.getFirstname()).isEqualTo("James");
+        assertThat(booking.getLastname()).isEqualTo("Dutta");
+
+
+
+
+
+}
+
     @Test(groups = "Integration", priority = 4)
     @Owner("promode")
     @Description("TC#INT1 - Step-4 Verify that the Booking can be Created")
- public void testDeleteBookingd(ITestContext  iTestContext){
-        System.out.println("Token - "+ iTestContext.getAttribute("token"));
+    public void testDeleteBookingd(ITestContext iTestContext) {
+        System.out.println("Token - " + iTestContext.getAttribute("token"));
         Assert.assertTrue(true);
 
     }

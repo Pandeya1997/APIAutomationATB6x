@@ -1,1 +1,66 @@
-{"uuid":"534c6268-ce5d-45de-aec2-91792ba9eb44","historyId":"b33f2170c0de30e6e2af57dab15701f4","fullName":"com.thetestingacademy.tests.integration.TCIntegration.testCreateBooking","labels":[{"name":"package","value":"com.thetestingacademy.tests.integration.TCIntegration"},{"name":"testClass","value":"com.thetestingacademy.tests.integration.TCIntegration"},{"name":"testMethod","value":"testCreateBooking"},{"name":"parentSuite","value":"All Test Suite"},{"name":"suite","value":"C:/Users/AARRSOL/IdeaProjects/APIAutomationATB6x"},{"name":"subSuite","value":"com.thetestingacademy.tests.integration.TCIntegration"},{"name":"host","value":"DESKTOP-B6IU4L2"},{"name":"thread","value":"18808@DESKTOP-B6IU4L2.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"},{"name":"owner","value":"promode"}],"links":[],"name":"testCreateBooking","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","description":"TC#INT1 - Step-1 Verify that the Booking can be Created","steps":[],"attachments":[],"parameters":[],"start":1719973643845,"stop":1719973643850}
+{
+  "uuid": "534c6268-ce5d-45de-aec2-91792ba9eb44",
+  "historyId": "b33f2170c0de30e6e2af57dab15701f4",
+  "fullName": "com.thetestingacademy.tests.integration.TCIntegration.testCreateBooking",
+  "labels": [
+    {
+      "name": "package",
+      "value": "com.thetestingacademy.tests.integration.TCIntegration"
+    },
+    {
+      "name": "testClass",
+      "value": "com.thetestingacademy.tests.integration.TCIntegration"
+    },
+    {
+      "name": "testMethod",
+      "value": "testCreateBooking"
+    },
+    {
+      "name": "parentSuite",
+      "value": "All Test Suite"
+    },
+    {
+      "name": "suite",
+      "value": "C:/Users/AARRSOL/IdeaProjects/APIAutomationATB6x"
+    },
+    {
+      "name": "subSuite",
+      "value": "com.thetestingacademy.tests.integration.TCIntegration"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-B6IU4L2"
+    },
+    {
+      "name": "thread",
+      "value": "18808@DESKTOP-B6IU4L2.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    },
+    {
+      "name": "owner",
+      "value": "promode"
+    }
+  ],
+  "links": [],
+  "name": "testCreateBooking",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "TC#INT1 - Step-1 Verify that the Booking can be Created",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1719973643845,
+  "stop": 1719973643850
+}
