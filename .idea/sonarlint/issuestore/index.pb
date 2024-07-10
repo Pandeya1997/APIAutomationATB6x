@@ -59,11 +59,15 @@ w
 Gsrc/test/java/com/thetestingacademy/misc/parrallel/testng-parrallel.xml,e\e\ee8b0de4782989e12485133ad1ca6bc8aec81240
 r
 Bsrc/test/java/com/thetestingacademy/misc/parrallel/MainClass2.java,4\2\42c7f155b9a513ff4b72971be01fc60ebc4e4fca
-}
-Msrc/test/java/com/thetestingacademy/tests/ExtendDemoResult/ExtendManager.java,0\9\0948a2c4c5332c860d3559081099c5c2796a8b62
 ~
 Nsrc/test/java/com/thetestingacademy/tests/ExtendDemoResult/TestNGListener.java,4\b\4b208be588d3347355bb9ddda6686b379bd9a13e
 á
 Wsrc/test/java/com/thetestingacademy/tests/ExtendDemoResult/TCIntegrationFlowExtent.java,b\6\b6b81b6d67b18bc998b9bbca37462c4664386666
 |
 Lsrc/test/java/com/thetestingacademy/tests/ExtendDemoResult/testng-extent.xml,8\0\80b61e7da77f7d23aac91f0d670fbde02d4eca49
+}
+Msrc/test/java/com/thetestingacademy/tests/ExtendDemoResult/ExtentManager.java,8\6\8650fcafb79971398c9945194295a1ce82f8ebb8
+w
+G.idea/sonarlint/issuestore/8/6/8650fcafb79971398c9945194295a1ce82f8ebb8,8\a\8a73ee66eb4abc0f752bf6bdc8966a066a5ead78
+Å
+Q.idea/sonarlint/securityhotspotstore/8/6/8650fcafb79971398c9945194295a1ce82f8ebb8,d\3\d3925e367562c81ed75059877901746146e3dcf8
