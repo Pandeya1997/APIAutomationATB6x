@@ -1,0 +1,28 @@
+
+Æ
+java:S3577"‰Rename class "MainClass2" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(ïøšJ$dfe7a85a-6b17-44a0-ad25-268d93af5d3c
+™
+java:S4144!"]Update this method so that its implementation is not identical to "testMethodMC2" on line 21.(êÍíúJ$ec01b4d6-44e6-4d41-a841-19770b84ea2e
+™
+java:S4144-"]Update this method so that its implementation is not identical to "testMethodMC2" on line 21.(ÄÙ¢òJ$816f47cf-eb19-436f-b96a-d871d70beed5
+˜
+java:S4144'"]Update this method so that its implementation is not identical to "testMethodMC3" on line 27.(²†ÍkJ$38157b6d-6ebd-4d48-a10e-838280590a57
+w
+java:S5976"6Replace these 6 tests with a single Parameterized one.(àÆÑŠıÿÿÿÿJ$54877e01-40fd-4a4f-b708-1df9b6dc7237
+n
+java:S1874
+"-Remove this use of "getId"; it is deprecated.(¦Â»ÛÿÿÿÿÿJ$1a7e9b06-cfe7-4325-844a-f872c841c368
+n
+java:S1874"-Remove this use of "getId"; it is deprecated.(¦Â»ÛÿÿÿÿÿJ$99b84e66-560d-4c77-8ec1-28fc8bd66dab
+n
+java:S1874"-Remove this use of "getId"; it is deprecated.(¦Â»ÛÿÿÿÿÿJ$4f9fb75e-9aab-4efa-ba9d-f61125449885
+n
+java:S1874"-Remove this use of "getId"; it is deprecated.(¦Â»ÛÿÿÿÿÿJ$59878d03-bde4-4419-b0c8-b973bf6e5b7a
+n
+java:S1874""-Remove this use of "getId"; it is deprecated.(¦Â»ÛÿÿÿÿÿJ$1f94deb1-f0b5-43fd-b9e7-6aac74a486c1
+n
+java:S1874("-Remove this use of "getId"; it is deprecated.(¦Â»ÛÿÿÿÿÿJ$581e4e52-7e69-490c-b441-3799122eeaf4
+n
+java:S1874."-Remove this use of "getId"; it is deprecated.(¦Â»ÛÿÿÿÿÿJ$2603b41c-6f4f-4c11-b2a1-0219d89e69c0
+n
+java:S18744"-Remove this use of "getId"; it is deprecated.(¦Â»ÛÿÿÿÿÿJ$8138b81a-0b5e-4e01-acd3-5c8dc987f4b3
